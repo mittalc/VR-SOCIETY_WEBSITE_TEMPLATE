@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <title>JavaScript Snake Game</title>
+      <link rel="stylesheet" href="app.css" />
+   </head>
+   <body>
+      <a href="../../index.php" class="home-page">Home</a>
+      Speed: <input type="number" id="gameSpeed" value="5" min="1" max="9" step="1" />
+      <input type="button" value="Start" id="gameStart" />
+      <br /> <br />
+      <canvas id="gameArea"></canvas>
+      <script src="app.js"></script>
+   </body>
+   <style>
+      body{
+      background-image: url("../assets/img/gallery-60-3.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+      }
+      .home-page{position:absolute;
+      color: black;
+      padding: 25px;
+      background-color: white;
+      border: 1px solid black;
+      border-radius: 100px;
+      text-decoration: none;
+      left:20px;
+      width:max-content;
+      }
+      a:hover {
+      color: rgb(255, 255, 255);
+      background-color: black;
+      }
+   </style>
+</html>

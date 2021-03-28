@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="robots" content="noindex" />
+    <title>To do-List </title>
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/skeleton.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+    <a href="../../index.php" class="home-page">Home</a>
+
+    <div id="content">
+        <div class="container">
+            <h1>Todo-List</h1>
+            <div class="row">
+                <div class="six columns">
+                    <label for="addtask">Add Task:</label>
+                    <form action="#" id="form">
+                        <label for="addtask"></label>
+                        <textarea id="addtask" class="u-full-width"></textarea>
+                        <input type="submit" class="button u-full-width button-primary" value="Add Task">
+                    </form>
+                </div>
+                <!--.six-->
+                <div class="six columns">
+                    <h2>All Tasks</h2>
+                    <div id="task-list"></div>
+                    <hr />
+                    <center>
+                        <h5>Completed Tasks</h5>
+                    </center>
+                    <div id="checked-list"></div>
+                </div>
+                <!--.six-->
+            </div>
+        </div>
+    </div>
+    <!--#container-->
+
+    <script src="assets/js/app.js"></script>
+
+    <style>
+
+        body{
+          background-image: url("../assets/img/gallery-60-3.jpg");
+              background-repeat: no-repeat;
+              background-size: cover;
+              background-attachment: fixed;
+              color:white;
+        }
+        .home-page{position:absolute;
+          color: black;
+          padding: 25px;
+          background-color: white;
+          border: 1px solid black;
+          border-radius: 100px;
+          text-decoration: none;
+          left:20px;
+          width:max-content;
+          }
+          a:hover {
+            color: rgb(255, 255, 255);
+            background-color: black;
+          }
+      
+      </style>
+</body>
+
+</html>

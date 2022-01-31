@@ -1,4 +1,5 @@
 # VRSOC
+
 View our deployment here: 
 http://vrsoc.epizy.com/
 
@@ -7,9 +8,6 @@ https://github.com/mittalc/VRSOC
 
 Virtual Society for Mental Health - University of Windsor
 
-# Contributors
-* Chirag Mittal
-* Daljeet Singh
 
 # Tools Used
 * HACK(Php)
